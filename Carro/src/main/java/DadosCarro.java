@@ -1,8 +1,8 @@
 public class DadosCarro {
-    private  String Marca;
-    private  String Modelo;
-    private Integer Ano ;
-    private String Cor;
+    private  String marca;
+    private  String modelo;
+    private Integer ano ;
+    private String cor;
 
      public DadosCarro (String marca, String modelo) {
          this.Marca = marca;
@@ -10,7 +10,7 @@ public class DadosCarro {
      }
 
     public String getMarca() {
-        return Marca;
+        return marca;
     }
 
     public void setMarca(String marca) {
@@ -18,7 +18,7 @@ public class DadosCarro {
     }
 
     public String getModelo() {
-        return Modelo;
+        return modelo;
     }
 
     public void setModelo(String modelo) {
@@ -26,7 +26,7 @@ public class DadosCarro {
     }
 
     public Integer getAno() {
-        return Ano;
+        return ano;
     }
 
     public void setAno(Integer ano) {
@@ -34,7 +34,7 @@ public class DadosCarro {
     }
 
     public String getCor() {
-        return Cor;
+        return cor;
     }
 
     public void setCor(String cor) {
